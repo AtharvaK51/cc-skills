@@ -1,0 +1,11 @@
+{
+  "env": {
+    "ENABLE_LSP_TOOL": "1"
+  },
+  "model": "opus",
+  "enabledPlugins": {
+    "frontend-design@claude-plugins-official": true,
+    "pyright-lsp@claude-plugins-official": true,
+    "commit-commands@claude-plugins-official": true
+  }
+}
