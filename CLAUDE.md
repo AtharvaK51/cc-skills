@@ -1,3 +1,17 @@
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
+## Repository Purpose
+
+This is a dotfiles-style repo for Claude Code configuration. It stores global instructions (`CLAUDE.md`), settings (`settings.json`), and a setup script that installs everything to `~/.claude/`.
+
+`setup.sh` copies `CLAUDE.md` and `settings.json` to `~/.claude/` and installs gstack. It backs up existing files before overwriting. To test changes: `./setup.sh`.
+
+When editing this file, remember it is both the project CLAUDE.md *and* the global `~/.claude/CLAUDE.md` that gets installed.
+
+---
+
 # Global Claude Code Instructions
 
 ## Code Navigation
